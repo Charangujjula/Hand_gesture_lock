@@ -17,7 +17,7 @@ gesture_password = ["OPEN", "THUMB"]
 user_pattern = []
 last_time = time.time()
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 with mp_hands.Hands(max_num_hands=1, min_detection_confidence=0.7, min_tracking_confidence=0.7) as hands:
     while cap.isOpened():

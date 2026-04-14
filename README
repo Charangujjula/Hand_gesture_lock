@@ -1,6 +1,6 @@
 --> HAND GESTURE BASED LOCK / UNLOCK SYSTEM USING MEDIAPIPE AND STREAMLIT
 
-This is a computer vision project where a user can unlock access using custom hand gestures (like 👊 ➡️ ☝️) detected in real time via webcam.
+This is a computer vision project where a user can unlock access using custom hand gestures (like 👊 ➡️ ☝️) detected in real time via webcam. But for now i have added only the images to show the lock as locked initially than unlock after the gesture.
 
 --> DEMO VIDEO
 [https://www.linkedin.com/posts/cmd-jayesh_ai-computervision-mediapipe-activity-7345796315898929153-39Bm?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFlqJGoBl68XgWGQ56UL9i8cfNrN4L5nMUQ]
@@ -17,7 +17,10 @@ This is a computer vision project where a user can unlock access using custom ha
 - OpenCV
 - Streamlit
 
---> HOW TO USE
+--> HOW TO USE 
+
+"Change the path of the lock unlock image in the app.py"
+
 1. Run `detect_gesture.py` in one terminal  
 2. Run `app.py` in another using `streamlit run app.py`  
 3. Show the correct hand gesture pattern to unlock -- FIST👊 - INDEX☝️

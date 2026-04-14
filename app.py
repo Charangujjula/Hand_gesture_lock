@@ -6,8 +6,8 @@ import os
 st.set_page_config(layout="centered")
 st.title("🔐 Gesture Lock Status")
 
-locked_img = Image.open(r"C:\Users\Lenovo\OneDrive\Desktop\Harry Python\Hand_Gesture_Lock\lock.jpg")
-unlocked_img = Image.open(r"C:\Users\Lenovo\OneDrive\Desktop\Harry Python\Hand_Gesture_Lock\unlock.jpg")
+locked_img = Image.open(r"/Users/jayeshvishwakarma/Documents/Documents/Stuffs/Hand-Gesture-Lock/lock.jpg")
+unlocked_img = Image.open(r"/Users/jayeshvishwakarma/Documents/Documents/Stuffs/Hand-Gesture-Lock/unlock.jpg")
 
 if not os.path.exists("status.txt"):
     with open("status.txt", "w") as f:
