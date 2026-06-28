@@ -1,26 +1,109 @@
---> HAND GESTURE BASED LOCK / UNLOCK SYSTEM USING MEDIAPIPE AND STREAMLIT
+# 🔐 Hand Gesture Lock System
 
-This is a computer vision project where a user can unlock access using custom hand gestures (like 👊 ➡️ ☝️) detected in real time via webcam. But for now i have added only the images to show the lock as locked initially than unlock after the gesture.
+## 📌 Overview
 
---> DEMO VIDEO
-[https://www.linkedin.com/posts/cmd-jayesh_ai-computervision-mediapipe-activity-7345796315898929153-39Bm?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFlqJGoBl68XgWGQ56UL9i8cfNrN4L5nMUQ]
+The **Hand Gesture Lock System** is an AI-based security application that uses hand gestures as a password mechanism. Instead of traditional PINs or patterns, users can unlock the system using predefined hand gestures detected through a camera.
 
---> FEATURES 
-- Hand tracking & finger detection using MediaPipe
-- Custom gesture password system
-- Streamlit UI that displays real-time lock/unlock status
-- Lightweight and easy to run
+---
 
---> TECH STACK
-- Python
-- MediaPipe
-- OpenCV
-- Streamlit
+## 🚀 Features
 
---> HOW TO USE 
+* ✋ Gesture-based authentication
+* 🎥 Real-time hand tracking using webcam
+* 🔒 Secure and user-friendly locking system
+* ⚡ Fast and efficient gesture recognition
+* 🤖 Built using AI/ML concepts
 
-"Change the path of the lock unlock image in the app.py"
+---
 
-1. Run `detect_gesture.py` in one terminal  
-2. Run `app.py` in another using `streamlit run app.py`  
-3. Show the correct hand gesture pattern to unlock -- FIST👊 - INDEX☝️
+## 🛠️ Technologies Used
+
+* Python 🐍
+* OpenCV 👁️
+* MediaPipe ✋
+* NumPy 📊
+
+---
+
+## 📂 Project Structure
+
+```
+Hand-Gesture-Lock/
+│── main.py
+│── utils/
+│── models/
+│── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/Charangujjula/Hand_gesture_lock.git
+```
+
+2. Navigate to the project folder:
+
+```
+cd Hand_gesture_lock
+```
+
+3. Install required dependencies:
+
+```
+pip install opencv-python mediapipe numpy
+```
+
+---
+
+## ▶️ How to Run
+
+Run the main file:
+
+```
+python main.py
+```
+
+* Show your predefined gesture in front of the camera
+* System will recognize and unlock if matched
+
+---
+
+## 🎯 Use Cases
+
+* Smart home security systems
+* Personal device locking
+* Touchless authentication systems
+* AI-based security projects
+
+---
+
+## 📸 Screenshots
+
+*(Add your project screenshots here)*
+
+---
+
+## 📈 Future Improvements
+
+* Add multiple user support
+* Improve gesture accuracy
+* Mobile app integration
+* Add deep learning model
+
+---
+
+## 👨‍💻 Author
+
+**Charan Harsha**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
